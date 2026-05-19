@@ -1,1 +1,1 @@
-# CITP_GST
+# CITP gold sodium thiomalate study.
