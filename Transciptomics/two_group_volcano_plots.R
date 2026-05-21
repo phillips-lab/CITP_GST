@@ -27,7 +27,7 @@ for(i in 1:length(EXP)) {
      theme_classic() +
      theme(legend.position="none", plot.title=element_text(size=18, face="bold", hjust=0.5)) +
      theme(axis.line=element_line(size=1), axis.text=element_text(size=16)) +
-     geom_text_repel(size=5) +
+     geom_text_repel(size=3) +
      annotate(geom="label", x=-5, y=7, label="Downregulated", size=5.2, color="#2F67B1") +
      annotate(geom="label", x=9, y=7, label="Upregulated", size=5.2, color="#BF2C23") +
      scale_color_manual(values=c("#2F67B1","#444444","#BF2C23")) +
